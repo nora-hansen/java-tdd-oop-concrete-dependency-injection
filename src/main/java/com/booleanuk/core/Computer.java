@@ -21,8 +21,7 @@ public class Computer {
         psu.turnOn();
     }
 
-    public void installGame(String gameTitle) {
-        Game game = new Game(gameTitle);
+    public void installGame(Game game) {
         this.installedGames.add(game);
     }
 
